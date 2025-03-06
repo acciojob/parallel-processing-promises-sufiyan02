@@ -43,7 +43,7 @@ async function downloadImages() {
   }
 }
 
-const btn = document.createElement("button");
+
 btn.id = "download-images-button";
 btn.innerText = "Download Images";
 btn.onclick = downloadImages;
